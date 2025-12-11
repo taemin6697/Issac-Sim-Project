@@ -1,0 +1,4 @@
+srv/SetColor.idl
+srv/SetColor.srv
+srv/SetColor_Request.msg
+srv/SetColor_Response.msg

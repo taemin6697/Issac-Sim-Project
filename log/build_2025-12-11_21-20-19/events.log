@@ -1,0 +1,374 @@
+[0.000000] (-) TimerEvent: {}
+[0.000765] (duckie_interfaces) JobQueued: {'identifier': 'duckie_interfaces', 'dependencies': OrderedDict()}
+[0.000803] (duckie_control) JobQueued: {'identifier': 'duckie_control', 'dependencies': OrderedDict([('duckie_interfaces', '/home/tm0118/ros2_ws/install/duckie_interfaces')])}
+[0.000833] (duckie_interfaces) JobStarted: {'identifier': 'duckie_interfaces'}
+[0.011606] (duckie_interfaces) JobProgress: {'identifier': 'duckie_interfaces', 'progress': 'cmake'}
+[0.012873] (duckie_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/tm0118/ros2_ws/src/duckie_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/tm0118/ros2_ws/install/duckie_interfaces'], 'cwd': '/home/tm0118/ros2_ws/build/duckie_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tm0118'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tm0118'), ('OLDPWD', '/home/tm0118/ros2_ws/src/duckie_control'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tm0118'), ('NAME', 'DESKTOP-L22SE7G'), ('WSL_INTEROP', '/run/WSL/262_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Users/tm011/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/tm011/AppData/Roaming/Python/Scripts:/mnt/c/Users/tm011/Desktop/shell.w32-ix86:/mnt/c/Program Files/Git LFS:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.35.32215/bin/Hostx64/x64:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Bandizip/:/mnt/c/MinGW/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/:/mnt/c/Users/tm011/Desktop/ffmpeg-2025-02-13-git-19a2d26177-essentials_build/bin:/mnt/c/Program Files (x86)/QuickTime/QTSystem/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/NVIDIA Corporation/SDK Manager:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/tm011/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/tm011/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/tm011/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2022.1.4/bin:/mnt/c/Users/tm011/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.1/bin:/mnt/c/Program Files/JetBrains/JetBrains Gateway 2024.1.1/bin:/mnt/c/Users/tm011/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/tm011/PycharmProjects/gill:/mnt/c/Users/tm011/AppData/Local/Programs/Ollama:/mnt/c/Users/tm011/.dotnet/tools:/mnt/c/Users/tm011/ffmpeg/bin:/mnt/c/Users/tm011/AppData/Local/JetBrains/Toolbox/scripts:/mnt/c/Program Files/JetBrains/PyCharm 2025.1.1.1/bin:/mnt/c/Users/tm0118/anaconda3:/mnt/c/Users/tm011/anaconda3/Library/bin:/mnt/c/Users/tm011/anaconda3/Scripts:/mnt/c/Users/tm011/anaconda3/Library/usr/bin:/mnt/c/Users/tm011/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/tm011/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/tm0118/ros2_ws/build/duckie_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099743] (-) TimerEvent: {}
+[0.200052] (-) TimerEvent: {}
+[0.300367] (-) TimerEvent: {}
+[0.353253] (duckie_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400485] (-) TimerEvent: {}
+[0.500781] (-) TimerEvent: {}
+[0.601107] (-) TimerEvent: {}
+[0.701435] (-) TimerEvent: {}
+[0.801747] (-) TimerEvent: {}
+[0.902068] (-) TimerEvent: {}
+[1.002392] (-) TimerEvent: {}
+[1.102729] (-) TimerEvent: {}
+[1.203058] (-) TimerEvent: {}
+[1.303415] (-) TimerEvent: {}
+[1.403812] (-) TimerEvent: {}
+[1.480873] (duckie_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.503945] (-) TimerEvent: {}
+[1.604411] (-) TimerEvent: {}
+[1.704999] (-) TimerEvent: {}
+[1.805312] (-) TimerEvent: {}
+[1.905636] (-) TimerEvent: {}
+[2.005963] (-) TimerEvent: {}
+[2.106299] (-) TimerEvent: {}
+[2.206642] (-) TimerEvent: {}
+[2.306978] (-) TimerEvent: {}
+[2.365996] (duckie_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.407098] (-) TimerEvent: {}
+[2.507391] (-) TimerEvent: {}
+[2.607781] (-) TimerEvent: {}
+[2.643992] (duckie_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.649208] (duckie_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.649748] (duckie_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.650797] (duckie_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.654443] (duckie_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.709023] (-) TimerEvent: {}
+[2.810700] (-) TimerEvent: {}
+[2.913170] (-) TimerEvent: {}
+[2.934211] (duckie_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.939561] (duckie_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.939821] (duckie_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.940154] (duckie_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.950275] (duckie_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.014621] (-) TimerEvent: {}
+[3.079736] (duckie_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.115502] (-) TimerEvent: {}
+[3.175941] (duckie_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.181278] (duckie_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.189928] (duckie_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.216177] (-) TimerEvent: {}
+[3.318620] (-) TimerEvent: {}
+[3.421096] (-) TimerEvent: {}
+[3.488525] (duckie_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.521903] (-) TimerEvent: {}
+[3.624219] (-) TimerEvent: {}
+[3.726305] (-) TimerEvent: {}
+[3.735950] (duckie_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.828133] (-) TimerEvent: {}
+[3.893174] (duckie_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.928886] (-) TimerEvent: {}
+[4.030908] (-) TimerEvent: {}
+[4.101665] (duckie_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.131092] (-) TimerEvent: {}
+[4.231479] (-) TimerEvent: {}
+[4.331868] (-) TimerEvent: {}
+[4.416515] (duckie_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.418628] (duckie_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.432211] (-) TimerEvent: {}
+[4.532534] (-) TimerEvent: {}
+[4.634539] (-) TimerEvent: {}
+[4.736106] (-) TimerEvent: {}
+[4.837919] (-) TimerEvent: {}
+[4.939760] (-) TimerEvent: {}
+[5.041544] (-) TimerEvent: {}
+[5.143391] (-) TimerEvent: {}
+[5.245233] (-) TimerEvent: {}
+[5.347047] (-) TimerEvent: {}
+[5.448864] (-) TimerEvent: {}
+[5.449160] (duckie_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.449305] (duckie_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.449358] (duckie_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.449405] (duckie_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.468031] (duckie_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.550207] (-) TimerEvent: {}
+[5.610714] (duckie_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.650657] (duckie_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[5.650870] (-) TimerEvent: {}
+[5.659438] (duckie_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/tm0118/ros2_ws/build/duckie_interfaces\n'}
+[5.669152] (duckie_interfaces) CommandEnded: {'returncode': 0}
+[5.669714] (duckie_interfaces) JobProgress: {'identifier': 'duckie_interfaces', 'progress': 'build'}
+[5.670247] (duckie_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tm0118/ros2_ws/build/duckie_interfaces', '--', '-j32', '-l32'], 'cwd': '/home/tm0118/ros2_ws/build/duckie_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tm0118'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tm0118'), ('OLDPWD', '/home/tm0118/ros2_ws/src/duckie_control'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tm0118'), ('NAME', 'DESKTOP-L22SE7G'), ('WSL_INTEROP', '/run/WSL/262_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Users/tm011/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/tm011/AppData/Roaming/Python/Scripts:/mnt/c/Users/tm011/Desktop/shell.w32-ix86:/mnt/c/Program Files/Git LFS:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.35.32215/bin/Hostx64/x64:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Bandizip/:/mnt/c/MinGW/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/:/mnt/c/Users/tm011/Desktop/ffmpeg-2025-02-13-git-19a2d26177-essentials_build/bin:/mnt/c/Program Files (x86)/QuickTime/QTSystem/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/NVIDIA Corporation/SDK Manager:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/tm011/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/tm011/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/tm011/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2022.1.4/bin:/mnt/c/Users/tm011/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.1/bin:/mnt/c/Program Files/JetBrains/JetBrains Gateway 2024.1.1/bin:/mnt/c/Users/tm011/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/tm011/PycharmProjects/gill:/mnt/c/Users/tm011/AppData/Local/Programs/Ollama:/mnt/c/Users/tm011/.dotnet/tools:/mnt/c/Users/tm011/ffmpeg/bin:/mnt/c/Users/tm011/AppData/Local/JetBrains/Toolbox/scripts:/mnt/c/Program Files/JetBrains/PyCharm 2025.1.1.1/bin:/mnt/c/Users/tm0118/anaconda3:/mnt/c/Users/tm011/anaconda3/Library/bin:/mnt/c/Users/tm011/anaconda3/Scripts:/mnt/c/Users/tm011/anaconda3/Library/usr/bin:/mnt/c/Users/tm011/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/tm011/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/tm0118/ros2_ws/build/duckie_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.710393] (duckie_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.720234] (duckie_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.729884] (duckie_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_duckie_interfaces\n'}
+[5.751257] (-) TimerEvent: {}
+[5.852776] (-) TimerEvent: {}
+[5.929032] (duckie_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.929690] (duckie_interfaces) StdoutLine: {'line': b'creating duckie_interfaces.egg-info\n'}
+[5.930333] (duckie_interfaces) StdoutLine: {'line': b'writing duckie_interfaces.egg-info/PKG-INFO\n'}
+[5.930508] (duckie_interfaces) StdoutLine: {'line': b'writing dependency_links to duckie_interfaces.egg-info/dependency_links.txt\n'}
+[5.930824] (duckie_interfaces) StdoutLine: {'line': b'writing top-level names to duckie_interfaces.egg-info/top_level.txt\n'}
+[5.930929] (duckie_interfaces) StdoutLine: {'line': b"writing manifest file 'duckie_interfaces.egg-info/SOURCES.txt'\n"}
+[5.933253] (duckie_interfaces) StdoutLine: {'line': b"reading manifest file 'duckie_interfaces.egg-info/SOURCES.txt'\n"}
+[5.933633] (duckie_interfaces) StdoutLine: {'line': b"writing manifest file 'duckie_interfaces.egg-info/SOURCES.txt'\n"}
+[5.940278] (duckie_interfaces) StdoutLine: {'line': b'[  6%] Built target duckie_interfaces__cpp\n'}
+[5.951251] (duckie_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.951451] (duckie_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/duckie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/duckie_interfaces/srv/detail/set_color__functions.c.o\x1b[0m\n'}
+[5.951514] (duckie_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.951563] (duckie_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.952898] (-) TimerEvent: {}
+[5.961890] (duckie_interfaces) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_duckie_interfaces_egg\n'}
+[6.029983] (duckie_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libduckie_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[6.053287] (-) TimerEvent: {}
+[6.135088] (duckie_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/duckie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/duckie_interfaces/srv/set_color__type_support.cpp.o\x1b[0m\n'}
+[6.153441] (-) TimerEvent: {}
+[6.154313] (duckie_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/duckie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/duckie_interfaces/srv/detail/set_color__type_support.cpp.o\x1b[0m\n'}
+[6.162520] (duckie_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/duckie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/duckie_interfaces/srv/detail/dds_fastrtps/set_color__type_support.cpp.o\x1b[0m\n'}
+[6.253639] (-) TimerEvent: {}
+[6.302723] (duckie_interfaces) StdoutLine: {'line': b'[ 32%] Built target duckie_interfaces__rosidl_generator_c\n'}
+[6.314943] (duckie_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.315131] (duckie_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.315198] (duckie_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.353821] (-) TimerEvent: {}
+[6.427822] (duckie_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libduckie_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.454254] (-) TimerEvent: {}
+[6.508259] (duckie_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/duckie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/duckie_interfaces/srv/set_color__type_support.cpp.o\x1b[0m\n'}
+[6.530211] (duckie_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/duckie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/duckie_interfaces/srv/detail/set_color__type_support.c.o\x1b[0m\n'}
+[6.531531] (duckie_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libduckie_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.540143] (duckie_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/duckie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/duckie_interfaces/srv/detail/set_color__type_support_c.cpp.o\x1b[0m\n'}
+[6.540699] (duckie_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libduckie_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.554423] (-) TimerEvent: {}
+[6.564920] (duckie_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libduckie_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.570598] (duckie_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking C shared library libduckie_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.654578] (-) TimerEvent: {}
+[6.657492] (duckie_interfaces) StdoutLine: {'line': b'[ 67%] Built target duckie_interfaces__rosidl_typesupport_cpp\n'}
+[6.725400] (duckie_interfaces) StdoutLine: {'line': b'[ 67%] Built target duckie_interfaces__rosidl_typesupport_c\n'}
+[6.746122] (duckie_interfaces) StdoutLine: {'line': b'[ 67%] Built target duckie_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.754737] (-) TimerEvent: {}
+[6.803045] (duckie_interfaces) StdoutLine: {'line': b'[ 67%] Built target duckie_interfaces__rosidl_typesupport_introspection_c\n'}
+[6.848868] (duckie_interfaces) StdoutLine: {'line': b'[ 67%] Built target duckie_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.854944] (-) TimerEvent: {}
+[6.855737] (duckie_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libduckie_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.956064] (-) TimerEvent: {}
+[7.057452] (-) TimerEvent: {}
+[7.135144] (duckie_interfaces) StdoutLine: {'line': b'[ 70%] Built target duckie_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.157731] (duckie_interfaces) StdoutLine: {'line': b'[ 70%] Built target duckie_interfaces\n'}
+[7.157927] (-) TimerEvent: {}
+[7.179719] (duckie_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.258539] (-) TimerEvent: {}
+[7.359860] (-) TimerEvent: {}
+[7.438198] (duckie_interfaces) StdoutLine: {'line': b'[ 74%] Built target duckie_interfaces__py\n'}
+[7.460213] (-) TimerEvent: {}
+[7.460597] (duckie_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/duckie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/duckie_interfaces/srv/_set_color_s.c.o\x1b[0m\n'}
+[7.561349] (-) TimerEvent: {}
+[7.590905] (duckie_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/duckie_interfaces/libduckie_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.662051] (-) TimerEvent: {}
+[7.762796] (-) TimerEvent: {}
+[7.826801] (duckie_interfaces) StdoutLine: {'line': b'[ 80%] Built target duckie_interfaces__rosidl_generator_py\n'}
+[7.847004] (duckie_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/duckie_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/duckie_interfaces/_duckie_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.847188] (duckie_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/duckie_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/duckie_interfaces/_duckie_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.847252] (duckie_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/duckie_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/duckie_interfaces/_duckie_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.862946] (-) TimerEvent: {}
+[7.929567] (duckie_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/duckie_interfaces/duckie_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.929774] (duckie_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/duckie_interfaces/duckie_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.936203] (duckie_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/duckie_interfaces/duckie_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.963074] (-) TimerEvent: {}
+[8.063787] (-) TimerEvent: {}
+[8.098062] (duckie_interfaces) StdoutLine: {'line': b'[100%] Built target duckie_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[8.098284] (duckie_interfaces) StdoutLine: {'line': b'[100%] Built target duckie_interfaces__rosidl_typesupport_c__pyext\n'}
+[8.164061] (-) TimerEvent: {}
+[8.169242] (duckie_interfaces) StdoutLine: {'line': b'[100%] Built target duckie_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.182268] (duckie_interfaces) CommandEnded: {'returncode': 0}
+[8.182915] (duckie_interfaces) JobProgress: {'identifier': 'duckie_interfaces', 'progress': 'install'}
+[8.192451] (duckie_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tm0118/ros2_ws/build/duckie_interfaces'], 'cwd': '/home/tm0118/ros2_ws/build/duckie_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tm0118'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tm0118'), ('OLDPWD', '/home/tm0118/ros2_ws/src/duckie_control'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tm0118'), ('NAME', 'DESKTOP-L22SE7G'), ('WSL_INTEROP', '/run/WSL/262_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Users/tm011/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/tm011/AppData/Roaming/Python/Scripts:/mnt/c/Users/tm011/Desktop/shell.w32-ix86:/mnt/c/Program Files/Git LFS:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.35.32215/bin/Hostx64/x64:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Bandizip/:/mnt/c/MinGW/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/:/mnt/c/Users/tm011/Desktop/ffmpeg-2025-02-13-git-19a2d26177-essentials_build/bin:/mnt/c/Program Files (x86)/QuickTime/QTSystem/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/NVIDIA Corporation/SDK Manager:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/tm011/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/tm011/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/tm011/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2022.1.4/bin:/mnt/c/Users/tm011/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.1/bin:/mnt/c/Program Files/JetBrains/JetBrains Gateway 2024.1.1/bin:/mnt/c/Users/tm011/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/tm011/PycharmProjects/gill:/mnt/c/Users/tm011/AppData/Local/Programs/Ollama:/mnt/c/Users/tm011/.dotnet/tools:/mnt/c/Users/tm011/ffmpeg/bin:/mnt/c/Users/tm011/AppData/Local/JetBrains/Toolbox/scripts:/mnt/c/Program Files/JetBrains/PyCharm 2025.1.1.1/bin:/mnt/c/Users/tm0118/anaconda3:/mnt/c/Users/tm011/anaconda3/Library/bin:/mnt/c/Users/tm011/anaconda3/Scripts:/mnt/c/Users/tm011/anaconda3/Library/usr/bin:/mnt/c/Users/tm011/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/tm011/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/tm0118/ros2_ws/build/duckie_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.200282] (duckie_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.201347] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/ament_index/resource_index/rosidl_interfaces/duckie_interfaces\n'}
+[8.201547] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces\n'}
+[8.202147] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv\n'}
+[8.202386] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/set_color.h\n'}
+[8.202585] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail\n'}
+[8.202821] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail/set_color__struct.h\n'}
+[8.202998] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail/set_color__functions.h\n'}
+[8.203160] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail/set_color__functions.c\n'}
+[8.203347] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail/set_color__type_support.h\n'}
+[8.203515] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/msg\n'}
+[8.203758] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.204316] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/environment/library_path.sh\n'}
+[8.204542] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/environment/library_path.dsv\n'}
+[8.204976] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/lib/libduckie_interfaces__rosidl_generator_c.so\n'}
+[8.205378] (duckie_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tm0118/ros2_ws/install/duckie_interfaces/lib/libduckie_interfaces__rosidl_generator_c.so" to ""\n'}
+[8.205483] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces\n'}
+[8.205654] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv\n'}
+[8.205812] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail\n'}
+[8.205919] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail/set_color__rosidl_typesupport_fastrtps_c.h\n'}
+[8.206067] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/msg\n'}
+[8.206116] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.206157] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/lib/libduckie_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[8.206389] (duckie_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tm0118/ros2_ws/install/duckie_interfaces/lib/libduckie_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.206515] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces\n'}
+[8.206707] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv\n'}
+[8.206760] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail\n'}
+[8.206801] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail/set_color__rosidl_typesupport_introspection_c.h\n'}
+[8.206838] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail/set_color__type_support.c\n'}
+[8.206941] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/msg\n'}
+[8.207029] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.207154] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/lib/libduckie_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.207508] (duckie_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tm0118/ros2_ws/install/duckie_interfaces/lib/libduckie_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.207741] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/lib/libduckie_interfaces__rosidl_typesupport_c.so\n'}
+[8.208133] (duckie_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tm0118/ros2_ws/install/duckie_interfaces/lib/libduckie_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[8.208262] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces\n'}
+[8.208395] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv\n'}
+[8.208459] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/set_color.hpp\n'}
+[8.208624] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail\n'}
+[8.208779] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail/set_color__builder.hpp\n'}
+[8.208855] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail/set_color__struct.hpp\n'}
+[8.209040] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail/set_color__type_support.hpp\n'}
+[8.209265] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail/set_color__traits.hpp\n'}
+[8.209427] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/msg\n'}
+[8.209559] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[8.209666] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces\n'}
+[8.209833] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv\n'}
+[8.209894] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail\n'}
+[8.209937] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail/set_color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.210064] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail/dds_fastrtps\n'}
+[8.210277] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/msg\n'}
+[8.210379] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.210538] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/lib/libduckie_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.210910] (duckie_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tm0118/ros2_ws/install/duckie_interfaces/lib/libduckie_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.211106] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces\n'}
+[8.211166] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv\n'}
+[8.211206] (duckie_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail\n'}
+[8.211243] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail/set_color__type_support.cpp\n'}
+[8.211373] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/include/duckie_interfaces/duckie_interfaces/srv/detail/set_color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.211497] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/lib/libduckie_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.211888] (duckie_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tm0118/ros2_ws/install/duckie_interfaces/lib/libduckie_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.212067] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/lib/libduckie_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.212310] (duckie_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tm0118/ros2_ws/install/duckie_interfaces/lib/libduckie_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[8.212426] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/environment/pythonpath.sh\n'}
+[8.212551] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/environment/pythonpath.dsv\n'}
+[8.212708] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces-0.0.0-py3.10.egg-info\n'}
+[8.213756] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.213932] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.214166] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.214373] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.214588] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces\n'}
+[8.214742] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/duckie_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.214916] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/srv\n'}
+[8.215193] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/srv/_set_color_s.c\n'}
+[8.215370] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/srv/_set_color.py\n'}
+[8.215548] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/srv/__init__.py\n'}
+[8.215696] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/_duckie_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[8.215879] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/duckie_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.216050] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/libduckie_interfaces__rosidl_generator_py.so\n'}
+[8.216249] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/duckie_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.216437] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/_duckie_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.216602] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/_duckie_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.216768] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/__init__.py\n'}
+[8.246653] (duckie_interfaces) StdoutLine: {'line': b"Listing '/home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces'...\n"}
+[8.246856] (duckie_interfaces) StdoutLine: {'line': b"Compiling '/home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/__init__.py'...\n"}
+[8.246911] (duckie_interfaces) StdoutLine: {'line': b"Listing '/home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/srv'...\n"}
+[8.246951] (duckie_interfaces) StdoutLine: {'line': b"Compiling '/home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/srv/__init__.py'...\n"}
+[8.246988] (duckie_interfaces) StdoutLine: {'line': b"Compiling '/home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/srv/_set_color.py'...\n"}
+[8.251886] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/duckie_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.252254] (duckie_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/duckie_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.252491] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/duckie_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.252847] (duckie_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/duckie_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.253097] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/duckie_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.253459] (duckie_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages/duckie_interfaces/duckie_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.253664] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/lib/libduckie_interfaces__rosidl_generator_py.so\n'}
+[8.253938] (duckie_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/tm0118/ros2_ws/install/duckie_interfaces/lib/libduckie_interfaces__rosidl_generator_py.so" to ""\n'}
+[8.254360] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/srv/SetColor.idl\n'}
+[8.254559] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/srv/SetColor.srv\n'}
+[8.254677] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/srv/SetColor_Request.msg\n'}
+[8.254875] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/srv/SetColor_Response.msg\n'}
+[8.255278] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/ament_index/resource_index/package_run_dependencies/duckie_interfaces\n'}
+[8.255670] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/ament_index/resource_index/parent_prefix_path/duckie_interfaces\n'}
+[8.255858] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/environment/ament_prefix_path.sh\n'}
+[8.256033] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.256193] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/environment/path.sh\n'}
+[8.256374] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/environment/path.dsv\n'}
+[8.256546] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/local_setup.bash\n'}
+[8.256737] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/local_setup.sh\n'}
+[8.256966] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/local_setup.zsh\n'}
+[8.257136] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/local_setup.dsv\n'}
+[8.257321] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/package.dsv\n'}
+[8.257698] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/ament_index/resource_index/packages/duckie_interfaces\n'}
+[8.258075] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/export_duckie_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.258242] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/export_duckie_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.258460] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/export_duckie_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.258634] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/export_duckie_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.258818] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/duckie_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.259013] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/duckie_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.259206] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/duckie_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.259396] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/duckie_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.259588] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/export_duckie_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.259799] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/export_duckie_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.259995] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/export_duckie_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.260183] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/duckie_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.260419] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/duckie_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.260617] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/duckie_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.260799] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/duckie_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.261001] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/export_duckie_interfaces__rosidl_generator_pyExport.cmake\n'}
+[8.261175] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/export_duckie_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.261351] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.261532] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.261702] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.261892] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.262064] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.262225] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.262405] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.262627] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/duckie_interfacesConfig.cmake\n'}
+[8.262774] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/cmake/duckie_interfacesConfig-version.cmake\n'}
+[8.262969] (duckie_interfaces) StdoutLine: {'line': b'-- Installing: /home/tm0118/ros2_ws/install/duckie_interfaces/share/duckie_interfaces/package.xml\n'}
+[8.264132] (-) TimerEvent: {}
+[8.265770] (duckie_interfaces) CommandEnded: {'returncode': 0}
+[8.289710] (duckie_interfaces) JobEnded: {'identifier': 'duckie_interfaces', 'rc': 0}
+[8.290283] (duckie_control) JobStarted: {'identifier': 'duckie_control'}
+[8.364599] (-) TimerEvent: {}
+[8.465725] (-) TimerEvent: {}
+[8.566697] (-) TimerEvent: {}
+[8.667684] (-) TimerEvent: {}
+[8.768679] (-) TimerEvent: {}
+[8.869652] (-) TimerEvent: {}
+[8.970648] (-) TimerEvent: {}
+[9.071609] (-) TimerEvent: {}
+[9.172608] (-) TimerEvent: {}
+[9.273536] (-) TimerEvent: {}
+[9.350713] (duckie_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/duckie_control', 'build', '--build-base', '/home/tm0118/ros2_ws/build/duckie_control/build', 'install', '--record', '/home/tm0118/ros2_ws/build/duckie_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tm0118/ros2_ws/src/duckie_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tm0118', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tm0118/ros2_ws/install/duckie_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tm0118', 'OLDPWD': '/home/tm0118/ros2_ws/src/duckie_control', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tm0118', 'NAME': 'DESKTOP-L22SE7G', 'WSL_INTEROP': '/run/WSL/262_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/Users/tm011/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/CMake/bin:/mnt/c/Users/tm011/AppData/Roaming/Python/Scripts:/mnt/c/Users/tm011/Desktop/shell.w32-ix86:/mnt/c/Program Files/Git LFS:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.35.32215/bin/Hostx64/x64:/mnt/c/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/Common7/IDE:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/Bandizip/:/mnt/c/MinGW/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/:/mnt/c/Users/tm011/Desktop/ffmpeg-2025-02-13-git-19a2d26177-essentials_build/bin:/mnt/c/Program Files (x86)/QuickTime/QTSystem/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/NVIDIA Corporation/SDK Manager:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/tm011/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/tm011/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/tm011/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2022.1.4/bin:/mnt/c/Users/tm011/AppData/Local/GitHubDesktop/bin:/mnt/c/Program Files/JetBrains/PyCharm 2023.1/bin:/mnt/c/Program Files/JetBrains/JetBrains Gateway 2024.1.1/bin:/mnt/c/Users/tm011/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/tm011/PycharmProjects/gill:/mnt/c/Users/tm011/AppData/Local/Programs/Ollama:/mnt/c/Users/tm011/.dotnet/tools:/mnt/c/Users/tm011/ffmpeg/bin:/mnt/c/Users/tm011/AppData/Local/JetBrains/Toolbox/scripts:/mnt/c/Program Files/JetBrains/PyCharm 2025.1.1.1/bin:/mnt/c/Users/tm0118/anaconda3:/mnt/c/Users/tm011/anaconda3/Library/bin:/mnt/c/Users/tm011/anaconda3/Scripts:/mnt/c/Users/tm011/anaconda3/Library/usr/bin:/mnt/c/Users/tm011/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Users/tm011/AppData/Roaming/npm:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/tm0118/ros2_ws/install/duckie_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/tm0118/ros2_ws/build/duckie_control', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tm0118/ros2_ws/build/duckie_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tm0118/ros2_ws/install/duckie_control/lib/python3.10/site-packages:/home/tm0118/ros2_ws/install/duckie_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': '', 'CMAKE_PREFIX_PATH': '/home/tm0118/ros2_ws/install/duckie_interfaces'}, 'shell': False}
+[9.373764] (-) TimerEvent: {}
+[9.474689] (-) TimerEvent: {}
+[9.529299] (duckie_control) StdoutLine: {'line': b'running egg_info\n'}
+[9.529662] (duckie_control) StdoutLine: {'line': b'creating ../../build/duckie_control/duckie_control.egg-info\n'}
+[9.530010] (duckie_control) StdoutLine: {'line': b'writing ../../build/duckie_control/duckie_control.egg-info/PKG-INFO\n'}
+[9.530274] (duckie_control) StdoutLine: {'line': b'writing dependency_links to ../../build/duckie_control/duckie_control.egg-info/dependency_links.txt\n'}
+[9.530532] (duckie_control) StdoutLine: {'line': b'writing entry points to ../../build/duckie_control/duckie_control.egg-info/entry_points.txt\n'}
+[9.530598] (duckie_control) StdoutLine: {'line': b'writing requirements to ../../build/duckie_control/duckie_control.egg-info/requires.txt\n'}
+[9.530678] (duckie_control) StdoutLine: {'line': b'writing top-level names to ../../build/duckie_control/duckie_control.egg-info/top_level.txt\n'}
+[9.530819] (duckie_control) StdoutLine: {'line': b"writing manifest file '../../build/duckie_control/duckie_control.egg-info/SOURCES.txt'\n"}
+[9.531760] (duckie_control) StdoutLine: {'line': b"reading manifest file '../../build/duckie_control/duckie_control.egg-info/SOURCES.txt'\n"}
+[9.532281] (duckie_control) StdoutLine: {'line': b"writing manifest file '../../build/duckie_control/duckie_control.egg-info/SOURCES.txt'\n"}
+[9.532548] (duckie_control) StdoutLine: {'line': b'running build\n'}
+[9.532616] (duckie_control) StdoutLine: {'line': b'running build_py\n'}
+[9.532704] (duckie_control) StdoutLine: {'line': b'creating /home/tm0118/ros2_ws/build/duckie_control/build\n'}
+[9.532909] (duckie_control) StdoutLine: {'line': b'creating /home/tm0118/ros2_ws/build/duckie_control/build/lib\n'}
+[9.533107] (duckie_control) StdoutLine: {'line': b'creating /home/tm0118/ros2_ws/build/duckie_control/build/lib/duckie_control\n'}
+[9.533333] (duckie_control) StdoutLine: {'line': b'copying duckie_control/duckie_led_service.py -> /home/tm0118/ros2_ws/build/duckie_control/build/lib/duckie_control\n'}
+[9.533463] (duckie_control) StdoutLine: {'line': b'copying duckie_control/__init__.py -> /home/tm0118/ros2_ws/build/duckie_control/build/lib/duckie_control\n'}
+[9.533622] (duckie_control) StdoutLine: {'line': b'running install\n'}
+[9.533827] (duckie_control) StdoutLine: {'line': b'running install_lib\n'}
+[9.534450] (duckie_control) StdoutLine: {'line': b'creating /home/tm0118/ros2_ws/install/duckie_control/lib/python3.10/site-packages/duckie_control\n'}
+[9.534661] (duckie_control) StdoutLine: {'line': b'copying /home/tm0118/ros2_ws/build/duckie_control/build/lib/duckie_control/duckie_led_service.py -> /home/tm0118/ros2_ws/install/duckie_control/lib/python3.10/site-packages/duckie_control\n'}
+[9.534796] (duckie_control) StdoutLine: {'line': b'copying /home/tm0118/ros2_ws/build/duckie_control/build/lib/duckie_control/__init__.py -> /home/tm0118/ros2_ws/install/duckie_control/lib/python3.10/site-packages/duckie_control\n'}
+[9.535198] (duckie_control) StdoutLine: {'line': b'byte-compiling /home/tm0118/ros2_ws/install/duckie_control/lib/python3.10/site-packages/duckie_control/duckie_led_service.py to duckie_led_service.cpython-310.pyc\n'}
+[9.535852] (duckie_control) StdoutLine: {'line': b'byte-compiling /home/tm0118/ros2_ws/install/duckie_control/lib/python3.10/site-packages/duckie_control/__init__.py to __init__.cpython-310.pyc\n'}
+[9.536038] (duckie_control) StdoutLine: {'line': b'running install_data\n'}
+[9.536128] (duckie_control) StdoutLine: {'line': b'creating /home/tm0118/ros2_ws/install/duckie_control/share/ament_index\n'}
+[9.536326] (duckie_control) StdoutLine: {'line': b'creating /home/tm0118/ros2_ws/install/duckie_control/share/ament_index/resource_index\n'}
+[9.536532] (duckie_control) StdoutLine: {'line': b'creating /home/tm0118/ros2_ws/install/duckie_control/share/ament_index/resource_index/packages\n'}
+[9.536748] (duckie_control) StdoutLine: {'line': b'copying resource/duckie_control -> /home/tm0118/ros2_ws/install/duckie_control/share/ament_index/resource_index/packages\n'}
+[9.536876] (duckie_control) StdoutLine: {'line': b'copying package.xml -> /home/tm0118/ros2_ws/install/duckie_control/share/duckie_control\n'}
+[9.536998] (duckie_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.538341] (duckie_control) StdoutLine: {'line': b'Copying ../../build/duckie_control/duckie_control.egg-info to /home/tm0118/ros2_ws/install/duckie_control/lib/python3.10/site-packages/duckie_control-0.0.0-py3.10.egg-info\n'}
+[9.539347] (duckie_control) StdoutLine: {'line': b'running install_scripts\n'}
+[9.555252] (duckie_control) StdoutLine: {'line': b'Installing led_service script to /home/tm0118/ros2_ws/install/duckie_control/lib/duckie_control\n'}
+[9.555769] (duckie_control) StdoutLine: {'line': b"writing list of installed files to '/home/tm0118/ros2_ws/build/duckie_control/install.log'\n"}
+[9.574218] (duckie_control) CommandEnded: {'returncode': 0}
+[9.574899] (-) TimerEvent: {}
+[9.579933] (duckie_control) JobEnded: {'identifier': 'duckie_control', 'rc': 0}
+[9.580617] (-) EventReactorShutdown: {}

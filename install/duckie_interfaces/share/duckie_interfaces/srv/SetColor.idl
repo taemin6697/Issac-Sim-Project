@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from duckie_interfaces/srv/SetColor.srv
+// generated code does not contain a copyright notice
+
+
+module duckie_interfaces {
+  module srv {
+    struct SetColor_Request {
+      string color;
+    };
+    struct SetColor_Response {
+      boolean success;
+    };
+  };
+};

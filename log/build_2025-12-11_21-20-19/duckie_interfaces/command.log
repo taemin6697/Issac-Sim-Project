@@ -1,0 +1,6 @@
+Invoking command in '/home/tm0118/ros2_ws/build/duckie_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tm0118/ros2_ws/src/duckie_interfaces -DCMAKE_INSTALL_PREFIX=/home/tm0118/ros2_ws/install/duckie_interfaces
+Invoked command in '/home/tm0118/ros2_ws/build/duckie_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tm0118/ros2_ws/src/duckie_interfaces -DCMAKE_INSTALL_PREFIX=/home/tm0118/ros2_ws/install/duckie_interfaces
+Invoking command in '/home/tm0118/ros2_ws/build/duckie_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tm0118/ros2_ws/build/duckie_interfaces -- -j32 -l32
+Invoked command in '/home/tm0118/ros2_ws/build/duckie_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tm0118/ros2_ws/build/duckie_interfaces -- -j32 -l32
+Invoking command in '/home/tm0118/ros2_ws/build/duckie_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tm0118/ros2_ws/build/duckie_interfaces
+Invoked command in '/home/tm0118/ros2_ws/build/duckie_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tm0118/ros2_ws/build/duckie_interfaces

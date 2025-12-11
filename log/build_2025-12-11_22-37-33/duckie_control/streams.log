@@ -1,0 +1,22 @@
+[1.106s] Invoking command in '/home/tm0118/ros2_ws/src/duckie_control': PYTHONPATH=/home/tm0118/ros2_ws/build/duckie_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tm0118/ros2_ws/install/duckie_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/duckie_control build --build-base /home/tm0118/ros2_ws/build/duckie_control/build install --record /home/tm0118/ros2_ws/build/duckie_control/install.log --single-version-externally-managed install_data
+[1.304s] running egg_info
+[1.304s] writing ../../build/duckie_control/duckie_control.egg-info/PKG-INFO
+[1.304s] writing dependency_links to ../../build/duckie_control/duckie_control.egg-info/dependency_links.txt
+[1.304s] writing entry points to ../../build/duckie_control/duckie_control.egg-info/entry_points.txt
+[1.304s] writing requirements to ../../build/duckie_control/duckie_control.egg-info/requires.txt
+[1.304s] writing top-level names to ../../build/duckie_control/duckie_control.egg-info/top_level.txt
+[1.306s] reading manifest file '../../build/duckie_control/duckie_control.egg-info/SOURCES.txt'
+[1.307s] writing manifest file '../../build/duckie_control/duckie_control.egg-info/SOURCES.txt'
+[1.307s] running build
+[1.307s] running build_py
+[1.308s] running install
+[1.308s] running install_lib
+[1.309s] running install_data
+[1.310s] running install_egg_info
+[1.312s] removing '/home/tm0118/ros2_ws/install/duckie_control/lib/python3.10/site-packages/duckie_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.312s] Copying ../../build/duckie_control/duckie_control.egg-info to /home/tm0118/ros2_ws/install/duckie_control/lib/python3.10/site-packages/duckie_control-0.0.0-py3.10.egg-info
+[1.314s] running install_scripts
+[1.331s] Installing led_service script to /home/tm0118/ros2_ws/install/duckie_control/lib/duckie_control
+[1.331s] Installing visual_servoing script to /home/tm0118/ros2_ws/install/duckie_control/lib/duckie_control
+[1.331s] writing list of installed files to '/home/tm0118/ros2_ws/build/duckie_control/install.log'
+[1.355s] Invoked command in '/home/tm0118/ros2_ws/src/duckie_control' returned '0': PYTHONPATH=/home/tm0118/ros2_ws/build/duckie_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tm0118/ros2_ws/install/duckie_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/duckie_control build --build-base /home/tm0118/ros2_ws/build/duckie_control/build install --record /home/tm0118/ros2_ws/build/duckie_control/install.log --single-version-externally-managed install_data

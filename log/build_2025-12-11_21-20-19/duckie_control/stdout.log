@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/duckie_control/duckie_control.egg-info
+writing ../../build/duckie_control/duckie_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/duckie_control/duckie_control.egg-info/dependency_links.txt
+writing entry points to ../../build/duckie_control/duckie_control.egg-info/entry_points.txt
+writing requirements to ../../build/duckie_control/duckie_control.egg-info/requires.txt
+writing top-level names to ../../build/duckie_control/duckie_control.egg-info/top_level.txt
+writing manifest file '../../build/duckie_control/duckie_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/duckie_control/duckie_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/duckie_control/duckie_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tm0118/ros2_ws/build/duckie_control/build
+creating /home/tm0118/ros2_ws/build/duckie_control/build/lib
+creating /home/tm0118/ros2_ws/build/duckie_control/build/lib/duckie_control
+copying duckie_control/duckie_led_service.py -> /home/tm0118/ros2_ws/build/duckie_control/build/lib/duckie_control
+copying duckie_control/__init__.py -> /home/tm0118/ros2_ws/build/duckie_control/build/lib/duckie_control
+running install
+running install_lib
+creating /home/tm0118/ros2_ws/install/duckie_control/lib/python3.10/site-packages/duckie_control
+copying /home/tm0118/ros2_ws/build/duckie_control/build/lib/duckie_control/duckie_led_service.py -> /home/tm0118/ros2_ws/install/duckie_control/lib/python3.10/site-packages/duckie_control
+copying /home/tm0118/ros2_ws/build/duckie_control/build/lib/duckie_control/__init__.py -> /home/tm0118/ros2_ws/install/duckie_control/lib/python3.10/site-packages/duckie_control
+byte-compiling /home/tm0118/ros2_ws/install/duckie_control/lib/python3.10/site-packages/duckie_control/duckie_led_service.py to duckie_led_service.cpython-310.pyc
+byte-compiling /home/tm0118/ros2_ws/install/duckie_control/lib/python3.10/site-packages/duckie_control/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/tm0118/ros2_ws/install/duckie_control/share/ament_index
+creating /home/tm0118/ros2_ws/install/duckie_control/share/ament_index/resource_index
+creating /home/tm0118/ros2_ws/install/duckie_control/share/ament_index/resource_index/packages
+copying resource/duckie_control -> /home/tm0118/ros2_ws/install/duckie_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/tm0118/ros2_ws/install/duckie_control/share/duckie_control
+running install_egg_info
+Copying ../../build/duckie_control/duckie_control.egg-info to /home/tm0118/ros2_ws/install/duckie_control/lib/python3.10/site-packages/duckie_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing led_service script to /home/tm0118/ros2_ws/install/duckie_control/lib/duckie_control
+writing list of installed files to '/home/tm0118/ros2_ws/build/duckie_control/install.log'

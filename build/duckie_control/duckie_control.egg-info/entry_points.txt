@@ -1,0 +1,4 @@
+[console_scripts]
+led_service = duckie_control.duckie_led_service:main
+visual_servoing = duckie_control.visual_servoing:main
+
